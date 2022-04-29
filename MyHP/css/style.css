@@ -1,9 +1,21 @@
+body {
+    background-color: rgb(38,45,58);
+}
 
 h1 {
     text-align: center;
-    color: black;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', sans-serif;
 }
 
+h3 {
+    text-align: center;
+    color: rgb(248, 246, 246);
+    font-family: 'Courier New', sans-serif;
+    /*font-family:  "Roboto Mono",monospace;*/
+
+
+}
 /*
 .title {
     color: red;
@@ -16,3 +28,7 @@ h1 {
 #title_id2 {
     color:brown !important;
 }*/
+p.face img {
+    text-align: center;
+    width: 200px;  /* 横幅を200pxに */
+}
