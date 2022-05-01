@@ -40,10 +40,23 @@ p {
     color: rgb(248, 246, 246);
     font-family: 'Courier New', sans-serif;
 }
-.link {
+.gitlink {
+    display: block;
+    text-align: center;
+    margin-right: 10px;
+}
+.gitlink > img {
+    width: 60px;  
+}
+.twitterlink {
     display: block;
     text-align: center;
 }
-.link > img {
-    width: 60px;  /* 横幅を200pxに */ 
+.twitterlink > img {
+    width: 72px; 
+}
+.sns-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
